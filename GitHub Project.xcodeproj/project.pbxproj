@@ -16,6 +16,7 @@
 		5570DB20272910F000582AA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5570DB1F272910F000582AA3 /* ViewController.swift */; };
 		5570DB25272910F300582AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5570DB24272910F300582AA3 /* Assets.xcassets */; };
 		5570DB28272910F300582AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5570DB26272910F300582AA3 /* LaunchScreen.storyboard */; };
+		557C8D942743A9090028ED94 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C8D932743A9090028ED94 /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		5570DB24272910F300582AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5570DB27272910F300582AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5570DB29272910F300582AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557C8D932743A9090028ED94 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				5567C1FF272BE62F00C35EFD /* FavoritesListVC.swift */,
 				5567C2032731F4E800C35EFD /* GFButton.swift */,
 				5567C2052731FAD700C35EFD /* GFTextField.swift */,
+				557C8D932743A9090028ED94 /* FollowerListVC.swift */,
 			);
 			path = "GitHub Project";
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				5567C200272BE62F00C35EFD /* FavoritesListVC.swift in Sources */,
 				5570DB1C272910F000582AA3 /* AppDelegate.swift in Sources */,
 				5570DB1E272910F000582AA3 /* SceneDelegate.swift in Sources */,
+				557C8D942743A9090028ED94 /* FollowerListVC.swift in Sources */,
 				5567C2062731FAD700C35EFD /* GFTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

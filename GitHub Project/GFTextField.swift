@@ -11,6 +11,8 @@ class GFTextField: UITextField {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        configure()
+        
     }
     
     required init?(coder: NSCoder) {
@@ -29,11 +31,12 @@ class GFTextField: UITextField {
         font = UIFont.preferredFont(forTextStyle: .title2)
         adjustsFontSizeToFitWidth = true
         minimumFontSize = 12
+        returnKeyType = .go
         
         backgroundColor = .tertiarySystemBackground
         autocorrectionType = .no
         
         placeholder = "Enter a username"
+        
     }
-    
 }
